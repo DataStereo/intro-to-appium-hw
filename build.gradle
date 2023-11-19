@@ -8,8 +8,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.testng:testng:7.0.0'
-    implementation 'io.appium:java-client:7.3.0'
+    implementation 'org.testng:testng:7.3.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.11.0'
+    implementation 'io.appium:java-client:8.5.1'
 }
 
 test {
